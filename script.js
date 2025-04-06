@@ -5,12 +5,12 @@ function firstWord(s) {
 		return "";
 	}
 
-	let spaceindex=s.indexOf("");
+	let spaceindex=s.indexOf(" ");
 	if(spaceindex===-1){
 		return s;
 	}
 	else{
-		s.substring(0,spaceindex);
+		return s.substring(0,spaceindex);
 		
 	}
 }
